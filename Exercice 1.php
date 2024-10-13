@@ -11,7 +11,7 @@
         ?>
         <div class="container">
             <h1 class="mb-4">Inscription à la visite guidée</h1>
-            <form action="<?=$_SERVER['PHP_SELF'];?>" method="post">
+            <form action="<?=$_SERVER['PHP_SELF'];?>" method="POST">
                 <div class="col-md-3 mb-3">
                     Votre nom : <input type="text" name="nom" class="form-control" placeholder="Saisir votre nom" value="<?=isset($_POST["nom"])?htmlspecialchars($_POST["nom"]):""?>">
                 </div>

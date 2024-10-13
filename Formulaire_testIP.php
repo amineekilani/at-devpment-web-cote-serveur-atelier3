@@ -11,7 +11,7 @@
         ?>
         <div class="container">
             <h1>Vérification d'adresse IPv4</h1>
-            <form action="<?=$_SERVER['PHP_SELF'];?>" method="post">
+            <form action="<?=$_SERVER['PHP_SELF'];?>" method="POST">
                 <div class="row">
                     <div class="col-md-2 mb-3">
                         <input type="text" name="ip1" class="form-control" value="<?=isset($_POST["ip1"])?htmlspecialchars($_POST["ip1"]):""?>">

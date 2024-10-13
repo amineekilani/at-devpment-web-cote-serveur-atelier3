@@ -10,7 +10,9 @@
             include "index.html";
         ?>
         <div class="container">
-            <h3>Bienvenue dans la page d'achat immobilier</h3>
+            <div class='alert alert-info mt-3'>
+                <h3>Bienvenue dans la page d'achat immobilier</h3>
+            </div>
         </div>
     </body>
 </html>

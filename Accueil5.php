@@ -11,23 +11,19 @@
         ?>
         <div class="container">
             <h3>Cliquer sur l'un des boutons</h3>
-            <div class="row">
-                <div class="col-md-4 mb-3">
-                    <form action="Vente.php">
-                        <input type="submit" value="Vendre" class="btn btn-danger">
-                    </form>
+            <form action="redirection.php" method="POST">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <input type="submit" value="Vendre" name="vendre" class="btn btn-danger">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <input type="submit" value="Acheter" name="acheter" class="btn btn-success">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <input type="submit" value="Louer" name="louer" class="btn btn-primary">
+                    </div>
                 </div>
-                <div class="col-md-4 mb-3">
-                    <form action="Achat.php">
-                        <input type="submit" value="Acheter" class="btn btn-success">
-                    </form>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <form action="Location.php">
-                        <input type="submit" value="Louer" class="btn btn-primary">
-                    </form>
-                </div>
-            </div>
+            </form>
         </div>
     </body>
 </html>

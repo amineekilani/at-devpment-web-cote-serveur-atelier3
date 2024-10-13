@@ -11,7 +11,7 @@
         ?>
         <div class="container">
             <h1>Prénom et répétiton</h1>
-            <form action="Bienvenue.php" method="get">
+            <form action="Bienvenue.php" method="GET">
                 <div class="row">
                     <div class="col-md-2 mb-3">
                         Prénom : <input type="text" name="prenom" class="form-control" required>
