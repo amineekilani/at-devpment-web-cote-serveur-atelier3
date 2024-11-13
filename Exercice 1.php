@@ -30,7 +30,7 @@
             <?php
                 if ($_SERVER["REQUEST_METHOD"]=="POST")
                 {
-                    $nom= htmlspecialchars(strip_tags($_POST["nom"]));
+                    $nom=htmlspecialchars(strip_tags($_POST["nom"]));
                     $prenom=htmlspecialchars(strip_tags($_POST["prenom"]));
                     $age=htmlspecialchars(strip_tags($_POST["age"]));
                     $email=htmlspecialchars(strip_tags($_POST["email"]));
